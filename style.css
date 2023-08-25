@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 300px;
+    margin: auto;
+    margin-top:100px ;
+    text-align: left;
+    box-shadow: 7px 1px 13px #000;
+}
+
+th, td {
+    border: 0px solid #cfcfcf;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.img {
+    max-width: 100px;
+    height: auto;
+}
+
+input[type="number"] {
+    width: 50px;
+}
+
+.total-value {
+    font-weight: bold;
+}
+#panel, #flip {
+    padding: 5px;
+    text-align: left;
+  }
+  
+  #panel {
+    padding: 50px;
+    display: none;
+  }
+  .fina{
+    font-size: xx-large;
+  }
