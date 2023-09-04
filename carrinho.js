@@ -20,3 +20,12 @@ P4 = somaP1 + somaP2 + somaP3;
   document.getElementById("tt").textContent = P4.toFixed(2);
   
 }
+function finalizarCompra(){
+  let res = confirm("Comfirmar Compra?");
+  if(res === true){
+    alert("Compra Realizada com Sucesso");
+  }
+  else{
+     alert("Compra canselada");
+  };
+}
